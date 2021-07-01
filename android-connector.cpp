@@ -17,7 +17,7 @@ string getUserName() {
 }
 
 void printIntro() {
-	cout << "Android-Connector [Version 0.0.1]" << "\n";
+	cout << "Android-Connector [Version 0.0.2]" << "\n";
 	cout << "This is an open source project. You can access it from the link https://github.com/Park-SM/android-connector." << "\n\n";
 }
 
@@ -108,11 +108,13 @@ int main() {
 		if (output.length() > 14 && output.substr(0, 14) == "cannot connect")  {
 			cout << "Failed to connect to \"" + ip + "\"." << "\n";
 			cout << "Please Check the IP, connect the device to the PC with a USB cable and try again." << "\n";
+			system("PAUSE");
 			return 0;
 		} 
 		if (output.length() > 14 && output.substr(0, 14) == "cannot resolve")  {
 			cout << "Failed to connect to \"" + ip + "\"." << "\n";
 			cout << "Please check the IP and try again." << "\n";
+			system("PAUSE");
 			return 0;
 		}
 		//cout << output;
