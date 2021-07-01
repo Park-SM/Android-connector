@@ -12,7 +12,8 @@ Android Debug Bridge를 활용한 디바이스 무선 연결 프로그램입니�
 4. 디바이스의 설정에서 현재 연결된 Wi-Fi의 IP 주소를 입력합니다.
 
 5. "Please Check the IP, connect the device to the PC with a USB cable and try again."
-   위의 문구가 출력되면 USB 케이블로 디바이스와 PC를 연결 후 2번부터 다시 시도하면 연결됩니다.
+   위의 문구가 출력되면 USB 케이블로 디바이스와 PC를 연결 후 2번부터 다시 시도하면 연결되며, 연결 후
+   USB 케이블을 분리하여 무선으로 이용할 수 있습니다.
 </pre>
 
 ## License
